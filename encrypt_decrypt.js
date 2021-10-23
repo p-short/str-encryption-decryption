@@ -16,9 +16,7 @@ function scramble(stringToScram) {
   let emptyStr0 = "";
   let emptyStr1 = "";
   
-   if (strLen % 2 == 0) {
-    //Number is even
-  } else {
+if (strLen % 2 != 0) {
     //Number is odd so add char to string, to make str an even length
     stringToScram += tex;
   }
